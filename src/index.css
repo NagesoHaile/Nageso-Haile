@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+        
+    }
+    a {
+        @apply hover:text-[#62CDFF]  duration-300;
+        @apply hover:scale-110;
+    }
+}
