@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/NagesoHaile/static/css/main.20235b3c.css",
+    "main.js": "/NagesoHaile/static/js/main.a6715ddd.js",
+    "static/js/787.6203a948.chunk.js": "/NagesoHaile/static/js/787.6203a948.chunk.js",
+    "static/media/mobile.jpg": "/NagesoHaile/static/media/mobile.cfe877e798e6a87a7880.jpg",
+    "static/media/image.jpg": "/NagesoHaile/static/media/image.60016272ec9f5aebc5e5.jpg",
+    "static/media/css.png": "/NagesoHaile/static/media/css.4e67641bb68b658d9b2b.png",
+    "static/media/html.png": "/NagesoHaile/static/media/html.d50fc7a86b6f3764610b.png",
+    "index.html": "/NagesoHaile/index.html",
+    "main.20235b3c.css.map": "/NagesoHaile/static/css/main.20235b3c.css.map",
+    "main.a6715ddd.js.map": "/NagesoHaile/static/js/main.a6715ddd.js.map",
+    "787.6203a948.chunk.js.map": "/NagesoHaile/static/js/787.6203a948.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20235b3c.css",
+    "static/js/main.a6715ddd.js"
+  ]
+}
