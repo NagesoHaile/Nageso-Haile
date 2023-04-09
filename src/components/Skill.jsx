@@ -12,7 +12,7 @@ import CPP from '../assets/cpp.png';
 
 const Skill = () => {
     return(
-        <div name="skills" className='bg-[#0a192f] h-screen py-8 '>
+        <div name="skill" className='bg-[#0a192f] h-screen py-8 '>
             <div class='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='flex flex-col justify-center items-center'>
                     <p className='text-3xl text-gray-300 py-4 font-bold inline border-b-4 border-[#62CDFF]'>Skills</p>

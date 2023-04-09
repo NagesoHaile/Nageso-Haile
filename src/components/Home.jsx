@@ -5,7 +5,7 @@ import Typed from 'react-typed';
 
 const Home = () => {
   return (
-    <div className=''>
+    <div name="home" className=''>
       
         <div className="main-info h-screen p-8  flex flex-col justify-center items-center  bg-[#0a192f] pt-[80px]">
             <img className='image border-[#0a192f] border-3 mb-4' 
@@ -21,7 +21,7 @@ const Home = () => {
                 loop
             />
           </div>
-             <button  className=' flex items-center text-gray-300 px-4 py-3 border-2 border-[#62CDFF] rounded-md m-5  hover:bg-[#62CDFF] hover:text-gray-50'> Contact Me <span> <HiArrowNarrowRight className='text-2xl group-hover:rotate-90 duration-300'/> </span></button>
+             <a href="#contact" className=' flex items-center text-gray-300 px-4 py-3 border-2 border-[#62CDFF] rounded-md m-5  hover:bg-[#62CDFF] hover:text-gray-50'> Contact Me <span> <HiArrowNarrowRight className='text-2xl group-hover:rotate-90 duration-300'/> </span></a>
             
         </div>
        

@@ -4,7 +4,7 @@ import Mobile from '../assets/mobile.jpg';
 
 const Service = ()=>{
     return(
-       <div className="bg-[#0a192f] py-8 h-screen "> 
+       <div name="service" className="bg-[#0a192f] py-8 h-screen "> 
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full ">
                     <div className="flex flex-col justify-center items-center mb-8">
                         <p className="text-4xl text-gray-300 font-bold inline border-b-4 border-[#62CDFF]">Services</p>

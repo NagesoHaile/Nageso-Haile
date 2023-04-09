@@ -3,6 +3,7 @@ import React, {useState} from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa';
 
 import Logo from '../assets/logo.png';
+import {Link} from 'react-scroll';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -15,10 +16,31 @@ const Navbar = () => {
          { /*  Menu */}
         <div className="menu">
             <ul className='hidden md:flex'>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact me</a></li>
+                <li>
+                <Link  to="home"  smooth={true} offset={50} duration={500} >
+                   Home
+               </Link>
+                </li>
+                    <li>
+                    <Link  to="about"  smooth={true} offset={50} duration={500} >
+         About Me
+        </Link>
+                    </li>
+                <li>
+                <Link to="skill" smooth={true} offset={50} duration={500} >
+            Skills
+            </Link>
+                </li>
+                <li>
+                <Link to="service" smooth={true} offset={50} duration={500} >
+            Service
+            </Link>
+                </li>
+                <li>
+                    <Link to="contact" smooth={true} offset={50} duration={500} >
+          Contact 
+            </Link>
+                </li>
             </ul>
         </div>
         {/* Humburger*/}
@@ -28,10 +50,11 @@ const Navbar = () => {
         {/* mobile menu */}
         
           <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col bg-[#0a192f] justify-center items-center'}>
-                <li className='py-6 text-2xl'><a>Home</a></li>
-                <li className='py-6 text-2xl'><a>About me</a></li>
-                <li className='py-6 text-2xl'><a>Skills</a></li>
-                <li className='py-6 text-2xl'><a>Contact</a></li>
+                <li className='py-6 text-2xl'><a href="#home">Home</a></li>
+                <li className='py-6 text-2xl'><a href="#about">About me</a></li>
+                <li className='py-6 text-2xl'><a href="#skills">Skills</a></li>
+                <li className='py-6 text-2xl' ><a href="#service">Services</a></li>
+                <li className='py-6 text-2xl'><a href="#contact">Contact</a></li>
             </ul>
         
     </div>
